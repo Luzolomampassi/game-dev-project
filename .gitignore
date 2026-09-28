@@ -6,7 +6,7 @@
 # See: https://github.com/github/gitignore/tree/main/Global
 #
 .utmp/
-/[Ll]ibrary/
+**/[Ll]ibrary/
 /[Tt]emp/
 /[Oo]bj/
 /[Bb]uild/
@@ -20,7 +20,6 @@
 *.blend1.meta
 
 # MemoryCaptures can get excessive in size.
-# They also could contain extremely sensitive data
 /[Mm]emoryCaptures/
 
 # Recordings can get excessive in size
@@ -90,8 +89,7 @@ InitTestScene*.unity*
 /[Aa]ssets/Addressables_Temp*
 # By default, Addressables content builds will generate addressables_content_state.bin
 # files in platform-specific subfolders, for example:
-# /Assets/AddressableAssetsData/OSX/addressables_content_state.bin
-/[Aa]ssets/AddressableAssetsData/*/*.bin*
+/[ Aa]ssets/AddressableAssetsData/*/*.bin*
 
 # Visual Scripting auto-generated files
 /[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db
